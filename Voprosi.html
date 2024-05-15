@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KARELIAN</title>
+    <link rel="stylesheet" href="css\Voprosi.css">
+    <link rel="stylesheet" href="css\Headder-fotter.css">
+    <link rel="stylesheet" href="css\adopt.css">
+    
+</head>
+<body>
+
+<header class="header-container">
+    <p class="logo">KARELIAN</p>
+    <nav class="navigation">
+        <a class="navigation-item" href="index.html">Главная</a>
+        <a class="navigation-item" href="News.html">Новости</a>
+        <a class="navigation-item" href="Catalog.html">Каталог</a>
+        <a class="navigation-item" href="Kontakti.html">Контакты</a>
+        <a class="navigation-item" id="basket" href="Catalog.html#section1">Корзина</a>
+        <a class="navigation-item" id="quest" href="Voprosi.html">Помощь</a>
+    </nav>
+    <a href="Voprosi.html" target="_blank">
+        <img class="svg-icon" src="img/question.svg" alt="quest1">
+    </a>
+    
+    <a href="Catalog.html#section1" target="_blank">
+        <img class="svg-icon" src="img/basket.svg" alt="quest1">
+    </a>
+    
+    
+    <div class="burger">
+        <span></span>
+    </div>
+</header>
+<main>
+    <div class="contact-form">
+        <h2>Есть вопросы?</h2>
+        <h3>Дайте номер, мы вам позвоним!</h3>
+        <form id="call-form">
+            <input type="tel" id="phone-input" placeholder="Введите номер телефона" required>
+            <button type="submit">Отправить</button>
+            <p id="confirmation-message" style="display: none; color: green;">Спасибо! Мы свяжемся с вами в ближайшее время.</p>
+        </form>
+    </div>
+</main>
+<footer class="footer-container">
+    <div class="logo" id="bottom">KARELIAN</div>
+    <div class="footer-content">
+        <div class="fotter-navigation">
+            <a class="fotter-item" href="index.html">Главная</a>
+            <a class="fotter-item" href="News.html">Новости</a>
+            <a class="fotter-item" href="Catalog.html">Каталог</a>
+            <a class="fotter-item" href="Kontakti.html">Контакты</a>
+        </div>
+        <div class="contact-info-section1">
+            <a href="Voprosi.html" class="call-button">Заказать звонок</a>
+            <p class="contact-info-bold">+375 (44) 738-27-58</p>
+            <p class="contact-info-text">support@karelian.ru</p>
+        </div>
+    </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

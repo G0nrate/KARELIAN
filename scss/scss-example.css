@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.brand-title-text-style,
+.tech-brand-promo-text-style {
+  color: rgb(255, 255, 255);
+  white-space: pre-wrap;
+  margin: 20px 0;
+}
+
+.catalog-button {
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: 12px 45px;
+  font-size: 18px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: calc(50% - 300px);
+  align-self: center;
+}
+
+.catalog-button:hover {
+  background-color: black;
+}
+
+.brand-promo-container {
+  background: url("../img/Backgraund1.png") no-repeat 50%/cover;
+}
+
+.brand-title-text-style {
+  font: 700 50px/60px Montserrat, sans-serif;
+}
+
+.tech-brand-promo-text-style {
+  font: 400 25px/30px Montserrat, sans-serif;
+}
+
+.image-grid-container {
+  background-color: #3E3333;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}/*# sourceMappingURL=scss-example.css.map */

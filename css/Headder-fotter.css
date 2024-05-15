@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Это важно для правильного расчета размеров элементов */
+    text-decoration: none;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%; /* Занимать всю доступную ширину */
+    background-color: black;
+    padding-right: 50px;
+  }
+  .logo-burger{
+    width: 28.49%;
+    font: 400 30px Roboto, sans-serif;
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 19.5px;
+    white-space: pre-wrap;
+    align-self: center;
+    margin-left: 50px;
+    margin-right: auto; /* Отступ справа для размещения слева */
+  }
+  .logo {
+    width: 28.49%;
+    font: 400 30px Roboto, sans-serif;
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 19.5px;
+    white-space: pre-wrap;
+    align-self: center;
+    margin-left: 50px;
+    margin-right: auto; /* Отступ справа для размещения слева */
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: center; /* Центрируем по горизонтали */
+    align-items: center; /* Центрируем по вертикали */
+    flex: 1; /* Растягиваем .navigation, чтобы занять всё доступное пространство */
+  }
+  
+  .navigation-item {
+    flex-grow: 1;
+    margin: 0 10px;
+    font: 400 20px/24px Montserrat, sans-serif;
+    color: rgba(255, 255, 255, 1);
+    white-space: pre-wrap;
+    text-decoration: none;
+  }
+  .navigation-item:hover {
+    color: rgb(147, 0, 0);
+  }
+  .header-container img {
+    width: 32px; /* Укажите нужную ширину */
+    height: 32px; /* Укажите нужную высоту */
+  }
+  .svg-icon {
+    margin-right: 25px; /* Задаем расстояние между SVG изображениями */
+  }
+  
+  .footer-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .footer-container {
+    
+    position: relative; /* Добавляем относительное позиционирование для .footer-container */
+    width: 100%;
+    height: 360px; /* Увеличиваем высоту футера */
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .fotter-navigation {
+    position: absolute; /* Используем абсолютное позиционирование */
+    top: 180; /* Размещаем вверху .footer-container */
+    left: calc(28.49% + 6vw); /* Отступ справа от логотипа в футере */
+    display: flex;
+    flex-direction: column; /* Элементы в колонку */
+  }
+  
+  
+  .fotter-item {
+    font: 400 20px Source Sans Pro;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 0.75px;
+    white-space: pre-wrap;
+  }
+  .fotter-item:hover {
+    color: rgb(147, 0, 0);
+  }
+  
+  .contact-info-section1 {
+    
+    position: relative;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin-top: 30px;
+    margin-right: 5vw; /* Отступ справа */
+  }
+  
+  .contact-info-bold {
+    flex: 0 0 auto;
+    font: 600 20px Source Sans Pro;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 1px;
+    white-space: pre-wrap;
+  }
+  .contact-info-text {
+    flex: 0 0 auto;
+    margin-top: 11px;
+    font: 400 15px Source Sans Pro;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 0.75px;
+    white-space: pre-wrap;
+  }
+  .fotter-item::after {
+    content: ""; /* Добавляем пустое содержимое для создания псевдоэлемента */
+    display: block; /* Делаем псевдоэлемент блочным */
+    height: 22px; /* Высота пространства между элементами */
+  }
+  .call-button {
+    font: 400 15px Source Sans Pro;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 0.75px;
+    width: 180px;
+    height: 45px;
+    background-color: black; /* Изменяем цвет фона на чёрный */
+    color: white; /* Изменяем цвет текста на белый */
+    font-size: 16px;
+    border: 2px solid white; /* Добавляем белую границу */
+    border-radius: 5px; /* Добавляем закругление углов */
+    padding: 12px 30px; /* Горизонтальный отступ 30px, вертикальный отступ 12px */
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 20px; /* Добавляем нижний отступ для разделения кнопки и номера */
+    white-space: nowrap;
+  }
+  /* Добавляем тень кнопке */
+  .call-button:hover {
+    transition: background-color 0.75s ease;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .burger{
+    display: none;
+    position: relative;
+    z-index: 50;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30px;
+    height: 18px;
+}
+
+.burger span{
+    height: 2px;
+    width: 80%;
+    transform: scale(1);
+    background-color: #FAF6F2;
+}
+
+.burger::before, .burger::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #FAF6F2;
+    transition: all 0.3s ease 0s;
+}
+
+.burger::before { top: 0 }
+
+.burger::after { bottom: 0 }
+
+
+/* Добавляем класс active для анимации иконки бургера */
+.burger.active span { transform: scale(0) }
+
+.burger.active::before{
+    top: 50%;
+    transform: rotate(-45deg) translate(0, -50%);
+}
+
+.burger.active::after{
+    bottom: 50%;
+    transform: rotate(45deg) translate(0, 50%);
+}
+@keyframes burgerAnimation {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+.open{
+  display: flex !important;
+}

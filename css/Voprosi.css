@@ -1,0 +1,77 @@
+main {
+    height: 400px;
+    font-family: Montserrat;
+    background: url("../img/Otzyvi.jpg") no-repeat 50% / cover;
+    padding: 50px 0; /* Добавим отступы, чтобы форма не была слишком прижатой к верхней и нижней границам main */
+}
+
+.contact-form {
+    font-family: Montserrat;
+    width: calc(100% - 40px); /* Учитываем отступы псевдоэлементов */
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    border: 2px solid #000000; /* Возвращаем границы формы */
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+.contact-form::before,
+.contact-form::after {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    border: 2px solid aliceblue; /* Цвет рамки */
+    border-radius: 12px; /* Задаем радиус для закругления углов */
+    z-index: -1; /* Помещаем псевдоэлементы за основной контент */
+}
+
+.contact-form h2,
+.contact-form h3 {
+    margin-bottom: 20px;
+    font-family: Montserrat;
+    text-align: center;
+}
+
+#phone-input {
+    font-family: Montserrat;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+
+
+button[type="submit"] {
+    font-family: Montserrat;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+button[type="submit"]:hover {
+    background-color: #514242;
+}
+
+#confirmation-message {
+    font-family: Montserrat;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}

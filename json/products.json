@@ -1,0 +1,98 @@
+[
+  {
+      "id": 1,
+      "title": "Наушники MOTIF II A.N.C.",
+      "data-type": "наушники",
+      "image": "img/image 4.png",
+      "description": "Беспроводные наушники с активным шумоподавлением",
+      "price": "999BYN"
+  },
+  {
+      "id": 2,
+      "title": "Колонка Marshall Acton BT",
+      "data-type": "колонки",
+      "image": "img/image 2 (2).png",
+      "description": "Bluetooth-колонка компактного размера ",
+      "price": "949BYN"
+  },
+  {
+      "id": 3,
+      "title": "Микрофон Shure SM7B",
+      "data-type": "микрофоны",
+      "image": "img/image 4 (1).png",
+      "description": "USB-микрофон с чистым звуком и регулируемой записью",
+      "price": "1699BYN"
+  },
+  {
+    "id": 4,
+    "title": "Наушники MAJOR IV",
+    "data-type": "наушники",
+    "image": "img/image 5.png",
+    "description": "Беспроводные наушники с активным шумоподавлением",
+    "price": "499BYN"
+},
+{
+    "id": 5,
+    "title": "Микрофон Audio-Technica AT4050ST",
+    "data-type": "микрофоны",
+    "image": "img/image 5 (2).png",
+    "description": "USB-микрофон с чистым звуком и регулируемой записью",
+    "price": "1299BYN"
+},
+{
+  "id": 6,
+  "title": "Наушники MONITOR II A.N.C. DIAMOND JUBILEE",
+  "data-type": "наушники",
+  "image": "img/image 2.png",
+  "description": "Беспроводные наушники с активным шумоподавлением",
+  "price": "999BYN"
+},
+{
+  "id": 7,
+  "title": "Sony WF-1000XM4",
+  "data-type": "наушники",
+  "image": "img/image 2 (3).png",
+  "description": "Беспроводные наушники с активным шумоподавлением",
+  "price": "699BYN"
+},  
+{
+  "id": 8,
+  "title": "Наушники Sony WH-XB910N",
+  "data-type": "наушники",
+  "image": "img/image 4 (2).png",
+  "description": "Беспроводные наушники с активным шумоподавлением",
+  "price": "999BYN"
+},
+{
+  "id": 9,
+  "title": "Наушники Sony WH-CH710N",
+  "data-type": "наушники",
+  "image": "img/image 5 (1).png",
+  "description": "Беспроводные наушники с активным шумоподавлением",
+  "price": "569BYN"
+},
+{
+  "id": 10,
+  "title": "Микрофон Audio-Technica AT4050ST",
+  "data-type": "микрофоны",
+  "image": "img/image 5 (2).png",
+  "description": "USB-микрофон с чистым звуком и регулируемой записью",
+  "price": "1299BYN"
+},
+{
+  "id": 11,
+  "title": "Колонка Marshall Woburn III",
+  "data-type": "колонки",
+  "image": "img/kolonka3.jpg",
+  "description": "Bluetooth-колонка компактного размера ",
+  "price": "1890BYN"
+},
+{
+  "id": 12,
+  "title": "Колонка Marshall Willen",
+  "data-type": "колонки",
+  "image": "img/kolonka2.jpg",
+  "description": "Bluetooth-колонка компактного размера ",
+  "price": "349BYN"
+}
+]

@@ -1,0 +1,277 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  width: calc(50% - 20px);
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  max-width: 100%;
+  max-height: 50%;
+  height: auto;
+  border-radius: 10px;
+  align-self: center;
+}
+
+.card-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.card h2 {
+  font-family: Montserrat;
+  font-size: 16px;
+  margin: 0;
+  color: #333;
+}
+
+.card p {
+  font-family: Montserrat;
+  font-size: 14px;
+  margin: 10px 0;
+  color: #666;
+}
+
+.card .price {
+  font-weight: bold;
+  color: #514242;
+  font-size: 18px;
+}
+
+.add-to-cart {
+  font-family: Montserrat;
+  border-radius: 20px;
+  width: 100%;
+  background-color: black;
+  color: #fff;
+  border: none;
+  padding: 12px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+}
+
+.add-to-cart:hover {
+  background-color: #514242;
+}
+
+.page-title {
+  font-family: Montserrat;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.category-buttons {
+  font-family: Montserrat;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.category-buttons button {
+  font-family: Montserrat;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: black;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.category-buttons button:hover {
+  background-color: #514242;
+}
+
+.cart {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.cart-header {
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.cart-items {
+  max-width: 50;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cart-item {
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-item-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-item-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.cart-item-price {
+  font-weight: bold;
+  color: #514242;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.remove-from-cart {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+}
+
+.remove-from-cart:hover {
+  background-color: #514242;
+  color: white;
+}
+
+.cart-total {
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.clear-cart {
+  margin-top: 20px;
+  background-color: white;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+.clear-cart:hover {
+  background-color: #514242;
+}
+.item-buy {
+  font-family: Montserrat;
+  color: white;
+  background-color: black;
+  border-radius: 30px;
+  padding: 10px;
+  width: 70%;
+  text-align: center;
+  margin-top: 20px; /* увеличенный отступ сверху */
+  margin-bottom: 20px; /* увеличенный отступ снизу */
+}
+.contact-form {
+  font-family: Montserrat;
+  width: calc(100% - 40px); /* Учитываем отступы псевдоэлементов */
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+  border: 2px solid #000000; /* Возвращаем границы формы */
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+}
+
+.contact-form::before,
+.contact-form::after {
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  right: -20px;
+  bottom: -20px;
+  border: 2px solid aliceblue; /* Цвет рамки */
+  border-radius: 12px; /* Задаем радиус для закругления углов */
+  z-index: -1; /* Помещаем псевдоэлементы за основной контент */
+}
+
+.contact-form h2,
+.contact-form h3 {
+  margin-bottom: 20px;
+  font-family: Montserrat;
+  text-align: center;
+}
+
+#phone-input {
+  font-family: Montserrat;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+
+
+button[type="submit"] {
+  font-family: Montserrat;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+button[type="submit"]:hover {
+  background-color: #514242;
+}
+
+#confirmation-message {
+  font-family: Montserrat;
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+}

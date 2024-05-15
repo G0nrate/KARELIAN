@@ -1,0 +1,54 @@
+.contact-title
+{
+    font: 800 50px/60px Montserrat, sans-serif;
+        color: rgba(0, 0, 0, 1);
+        text-align: center;
+}
+.two-sections {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.left-section, .right-section {
+    padding: 20px;
+    
+}
+.main-content { 
+    background-color: aliceblue;
+    padding: 20px;
+}
+.location{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+.address{
+    font-size: 20px;
+}
+.hours{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.email{
+    font-size: 20px;
+}
+.phone{
+    font-size:20px;
+    margin-bottom: 40px;
+}
+.social-media{
+    font-size:20px;
+    margin-bottom: 20px;
+}
+.contact-info .social-icons {
+    display: flex;
+    margin-top: 10px; /* Увеличиваем расстояние между иконками */
+}
+
+.contact-info .social-icons a {
+    margin-right: 40px; /* Увеличиваем расстояние между иконками */
+}
+
+.contact-info .social-icons img {
+    width: 40px; /* Уменьшаем размер иконок */
+    height: 40px; /* Уменьшаем размер иконок */
+}

@@ -1,0 +1,135 @@
+
+.news-container {
+  background-color: aliceblue;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+  padding-right: 11px;
+}
+.news-section-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 1433px;
+  padding-top: 48px;
+  padding-bottom: 148px;
+}
+.headline-text-style {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  width: 336px;
+  margin-left: 11px;
+  font: 800 65px/77px Montserrat, sans-serif;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  white-space: pre-wrap;
+}
+.news-card-container {
+  flex: 0 0 auto;
+  align-self: stretch;
+  margin-top: 74px;
+}
+.content-wrapper {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+.immersive-image-container {
+  box-sizing: border-box;
+  display: block;
+  width: 610px;
+  max-width: initial;
+  height: 400px;
+  clip-path: undefined;
+  border: none;
+  border-radius: 30px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+}
+.article-summary-container {
+  max-width: 500px;
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-bottom: 21px;
+  margin-left: 19px;
+}
+.headline-text-style1 {
+
+  flex: 0 0 auto;
+  align-self: stretch;
+  margin-right: 7px;
+  margin-left: 3px;
+  font: 700 40px/48px Montserrat, sans-serif;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  white-space: pre-wrap;
+}
+.immersive-text-styles {
+  flex: 0 0 auto;
+  align-self: stretch;
+  margin-top: 57px;
+  font: 500 25px/30px Montserrat, sans-serif;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  white-space: pre-wrap;
+}
+.news-card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 148px;
+}
+.legend-column-container {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  max-width: 500px;
+  padding-top: 15px;
+}
+.legendary-title {
+  flex: 0 0 auto;
+  align-self: stretch;
+  font: 700 40px/48px Montserrat, sans-serif;
+  color: rgba(0, 0, 0, 1);
+  text-align: right;
+  white-space: pre-wrap;
+}
+.standout-text {
+  flex: 0 0 auto;
+  align-self: stretch;
+  margin-top: 90px;
+  font: 500 25px/30px Montserrat, sans-serif;
+  color: rgba(0, 0, 0, 1);
+  text-align: right;
+  white-space: pre-wrap;
+}
+.marshall-emberton-image {
+  box-sizing: border-box;
+  display: block;
+  width: 610px;
+  max-width: initial;
+  height: 401px;
+  margin-left: 20px;
+  clip-path: undefined;
+  border: none;
+  border-radius: 30px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+}

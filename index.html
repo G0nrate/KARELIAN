@@ -1,0 +1,116 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>KARELIAN</title>
+        <link rel="stylesheet" href="css\mStyle.css">
+        <link rel="stylesheet" href="css\Headder-fotter.css">
+        <link rel="stylesheet" href="css\adopt.css">
+        
+    </head>
+    <body>
+
+    <header class="header-container">
+        <p class="logo">KARELIAN</p>
+        <nav class="navigation">
+            <a class="navigation-item" href="index.html">Главная</a>
+            <a class="navigation-item" href="News.html">Новости</a>
+            <a class="navigation-item" href="Catalog.html">Каталог</a>
+            <a class="navigation-item" href="Kontakti.html">Контакты</a>
+            <a class="navigation-item" id="basket" href="Catalog.html#section1">Корзина</a>
+            <a class="navigation-item" id="quest" href="Voprosi.html">Помощь</a>
+        </nav>
+        <a href="Voprosi.html" target="_blank">
+            <img class="svg-icon" src="img/question.svg" alt="quest1">
+        </a>
+        
+        <a href="Catalog.html#section1" target="_blank">
+            <img class="svg-icon" src="img/basket.svg" alt="quest1">
+        </a>
+        
+        <div class="burger">
+            <span></span>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="brand-promo-container">
+            <div class="brand-promo-section">
+                <p class="brand-title-text-style">Мировые бренды техники</p>
+                <p class="tech-brand-promo-text-style">по лучшим ценам в СНГ</p>
+                <a href="Catalog.html" class="catalog-button">Каталог</a>
+            </div>
+        </div>
+
+        <div class="image-section">
+            <h2 class="image-section-title">Наши товары</h2>
+            <div class="image-grid-container">
+                <div class="image-grid-item">
+                    <a href="#">
+                        <img src="img\naush.jpg" alt="Image 1">
+                    </a>
+                    <div class="overlay">
+                        <a href="Catalog.html?category=наушники" class="overlay-button">Перейти</a>
+                    </div>
+                    <div class="image-caption">Наушники</div>
+                </div>
+                <div class="image-grid-item">
+                    <a href="#">
+                        <img src="img\kolonki.jpg" alt="Image 2">
+                    </a>
+                    <div class="overlay">
+                        <a href="Catalog.html?category=колонки" class="overlay-button">Перейти</a>
+                    </div>
+                    <div class="image-caption">Колонки</div>
+                </div>
+                <div class="image-grid-item">
+                    <a href="#">
+                        <img src="img\mic.jpg" alt="Image 3">
+                    </a>
+                    <div class="overlay">
+                        <a href="Catalog.html?category=микрофоны" class="overlay-button">Перейти</a>
+                    </div>
+                    <div class="image-caption">Микрофоны</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="subscription-section">
+            <h2 class="subscription-title">Подпишитесь на нашу рассылку</h2>
+            <p class="subscription-text">Будьте в курсе последних новостей, акций и специальных предложений!</p>
+            <form class="subscription-form" id="subscription-form">
+                <div class="input-container">
+                    <input type="email" id="email-input" name="email" placeholder="Введите ваш email" required>
+                    <button type="submit" class="subscribe-button">Подписаться</button>
+                </div>
+            </form>
+            <div id="success-message" class="success-message">Успешно</div>
+        </div>
+        
+    </div>
+    </div>  
+        
+    </main>
+
+    <footer class="footer-container">
+        <div class="logo" id="bottom">KARELIAN</div>
+        <div class="footer-content">    
+            <div class="fotter-navigation">
+                <a class="fotter-item" href="index.html">Главная</a>
+                <a class="fotter-item" href="News.html">Новости</a>
+                <a class="fotter-item" href="Catalog.html">Каталог</a>
+                <a class="fotter-item" href="Kontakti.html">Контакты</a>
+            </div>
+            <div class="contact-info-section1">
+                <a href="Voprosi.html" class="call-button">Заказать звонок</a>
+                <p class="contact-info-bold">+375 (44) 738-27-58</p>
+                <p class="contact-info-text">support@karelian.ru</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+    </body>
+    </html>
